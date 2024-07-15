@@ -10,12 +10,14 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <MissionStatement />
-      <ImpactSection />
-      <VolunteerSection />
-      <GallerySection />
-      <DonationSection />
-      <ContactSection />
+      <div className="container mx-auto px-4">
+        <MissionStatement />
+        <ImpactSection />
+        <VolunteerSection />
+        <GallerySection />
+        <DonationSection />
+        <ContactSection />
+      </div>
     </main>
   );
 }

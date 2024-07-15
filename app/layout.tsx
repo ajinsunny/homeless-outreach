@@ -1,3 +1,4 @@
+import "./globals.css";
 import Header from "../app/components/Header";
 import Footer from "../app/components/Footer";
 import { Metadata } from "next";
@@ -14,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="text-foreground">
         <Header />
         {children}
         <Footer />
