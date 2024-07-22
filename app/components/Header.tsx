@@ -21,7 +21,7 @@ export default function Header() {
             About Us
           </Link>
           <Link
-            href="/contact"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeoEctmda3iRUD4eFkLAQFuyqS3xVp8Wvjbtjs6xRCZGUUDmQ/viewform?usp=pp_url"
             className="text-white hover:text-gray-300 transition duration-300"
           >
             Contact
