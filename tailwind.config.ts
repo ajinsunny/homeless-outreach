@@ -14,6 +14,10 @@ module.exports = {
           end: "rgb(var(--background-end-rgb))",
         },
       },
+      minHeight: {
+        screen: "100vh",
+        "screen-small": "100svh",
+      },
     },
   },
   plugins: [],

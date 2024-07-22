@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
-      <body className="flex flex-col min-h-screen text-foreground">
+      <body className="relative h-screen overflow-hidden">
         <Header />
         {children}
         <Footer />

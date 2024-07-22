@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="absolute top-0 left-0 right-0 z-30 bg-transparent">
-      <div className="container mx-auto px-4 py-6 flex justify-between items-center">
+    <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="logo text-white font-bold text-xl md:text-2xl">
           3rd Saturday Serve in McPherson Square Park
         </div>
