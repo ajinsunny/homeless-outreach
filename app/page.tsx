@@ -8,7 +8,7 @@ import ContactSection from "../app/components/ContactSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex-grow">
       <HeroSection />
       <div className="container mx-auto px-4">
         <MissionStatement />
