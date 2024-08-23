@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="absolute bottom-0 left-0 right-0 bg-transparent text-white py-2">
+    <footer className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-75 text-black py-2">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/3 mb-2 md:mb-0 flex flex-col items-center">
@@ -18,8 +18,8 @@ export default function Footer() {
           <div className="w-full md:w-1/3 mb-2 md:mb-0 flex flex-col items-center">
             <h5 className="font-bold text-lg mb-2">Sponsors</h5>
             <div className="flex space-x-4">
-              <img src="/sponsor1.png" alt="Sponsor 1" className="h-16" />
-              <img src="/sponsor2.png" alt="Sponsor 2" className="h-16" />
+              <img src="/sponsor1.jpeg" alt="Sponsor 1" className="h-32" />
+              <img src="/sponsor2.png" alt="Sponsor 2" className="h-32" />
             </div>
           </div>
           <div className="w-full md:w-1/3 mb-2 md:mb-0 flex flex-col items-center">
