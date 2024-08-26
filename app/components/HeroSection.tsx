@@ -11,7 +11,7 @@ export default function HeroSection() {
         objectFit="cover"
         className="z-0"
       />
-      <div className="absolute inset-0 bg-black bg-opacity-30 z-10"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-10 z-10"></div>
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-white text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Making a Difference Every 3rd Saturday
