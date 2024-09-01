@@ -79,6 +79,13 @@ export default function Header() {
             Contact
           </Link>
           <Link
+            href="/gallery"
+            className="text-white hover:text-gray-300 transition duration-300"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Gallery
+          </Link>
+          <Link
             href="https://www.amazon.com/hz/wishlist/ls/3W0312UMZS82W?ref_=wl_share"
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300"
             onClick={() => setIsMenuOpen(false)}
