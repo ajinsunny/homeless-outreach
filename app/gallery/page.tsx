@@ -24,7 +24,6 @@ export default function Gallery() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Our Gallery</h1>
       <Slider {...settings}>
         {images.map((src, index) => (
           <div key={index} className="relative h-[60vh]">
