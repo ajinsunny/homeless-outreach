@@ -15,9 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
-      <body className="relative h-screen overflow-hidden">
+      <body className="flex flex-col min-h-screen">
         <Header />
-        {children}
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>

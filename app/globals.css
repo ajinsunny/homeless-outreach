@@ -19,6 +19,7 @@
 html,
 body {
   height: 100%;
+  @apply antialiased;
 }
 
 body {
@@ -26,6 +27,19 @@ body {
   background: rgb(var(--background-start-rgb));
   display: flex;
   flex-direction: column;
+  @apply text-base md:text-lg;
+}
+
+h1 {
+  @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
+}
+
+h2 {
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight;
+}
+
+h3 {
+  @apply text-xl sm:text-2xl md:text-3xl font-semibold leading-snug;
 }
 
 main {
@@ -38,10 +52,81 @@ main {
   flex: 1;
   position: relative;
   overflow: hidden;
+  @apply min-h-screen;
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto;
+    max-width: 1200px;
+  }
+
+  .btn {
+    @apply inline-block px-6 py-3 rounded font-semibold text-center transition duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .absolute-center {
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+}
+
+.hamburger-icon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.hamburger-icon span:nth-child(1) {
+  top: 0px;
+}
+
+.hamburger-icon span:nth-child(2) {
+  top: 8px;
+}
+
+.hamburger-icon span:nth-child(3) {
+  top: 16px;
+}
+
+.hamburger-icon.open span:nth-child(1) {
+  top: 9px;
+  transform: rotate(135deg);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.hamburger-icon.open span:nth-child(3) {
+  top: 9px;
+  transform: rotate(-135deg);
 }
