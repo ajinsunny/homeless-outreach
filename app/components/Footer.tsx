@@ -24,22 +24,48 @@ export default function Footer() {
             <h5 className="text-lg font-bold mb-4">Sponsors</h5>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="w-32 h-32 relative">
-                <Image
-                  src="/sponsor1.jpeg"
-                  alt="Sponsor 1"
-                  fill
-                  style={{ objectFit: "contain" }}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
+                <Link href="https://www.matchboxrestaurants.com/">
+                  <Image
+                    src="/sponsor1.jpeg"
+                    alt="Sponsor 1"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </Link>
               </div>
               <div className="w-32 h-32 relative">
-                <Image
-                  src="/sponsor2.png"
-                  alt="Sponsor 2"
-                  fill
-                  style={{ objectFit: "contain" }}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
+                <Link href="https://www.mcdmateos.com/">
+                  <Image
+                    src="/sponsor2.png"
+                    alt="Sponsor 2"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </Link>
+              </div>
+              <div className="w-32 h-32 relative">
+                <Link href="https://thecbbakery.com/">
+                  <Image
+                    src="/sponsor3.png"
+                    alt="Chesapeake Bagel Bakery"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </Link>
+              </div>
+              <div className="w-32 h-32 relative">
+                <Link href="https://gocodough.com/">
+                  <Image
+                    src="/sponsor4.png"
+                    alt="Good Company Doughnuts & Cafe"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </Link>
               </div>
             </div>
           </div>
