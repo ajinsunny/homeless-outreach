@@ -67,6 +67,17 @@ export default function Footer() {
                   />
                 </Link>
               </div>
+              <div className="w-32 h-32 relative">
+                <Link href="https://www.mypmsi.com/">
+                  <Image
+                    src="/sponsor5.jpeg"
+                    alt="Pest Management Services, Inc."
+                    fill
+                    style={{ objectFit: "contain" }}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
 
