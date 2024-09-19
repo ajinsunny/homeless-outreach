@@ -5,7 +5,93 @@ export default function Footer() {
   return (
     <footer className="bg-gray-700 text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Sponsors Section */}
+        <div className="text-center mb-8">
+          <h5 className="text-lg font-bold mb-4">Sponsors</h5>
+          <div className="flex flex-wrap justify-center gap-4">
+            <div className="w-32 h-32 relative">
+              <Link href="https://www.matchboxrestaurants.com/">
+                <Image
+                  src="/sponsor1.jpeg"
+                  alt="Sponsor 1"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </Link>
+            </div>
+            <div className="w-32 h-32 relative">
+              <Link href="https://www.mcdmateos.com/">
+                <Image
+                  src="/sponsor2.png"
+                  alt="Sponsor 2"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </Link>
+            </div>
+            <div className="w-32 h-32 relative">
+              <Link href="https://thecbbakery.com/">
+                <Image
+                  src="/sponsor3.png"
+                  alt="Chesapeake Bagel Bakery"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </Link>
+            </div>
+            <div className="w-32 h-32 relative">
+              <Link href="https://gocodough.com/">
+                <Image
+                  src="/sponsor4.png"
+                  alt="Good Company Doughnuts & Cafe"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </Link>
+            </div>
+            <div className="w-32 h-32 relative">
+              <Link href="https://www.mypmsi.com/">
+                <Image
+                  src="/sponsor5.jpeg"
+                  alt="Pest Management Services, Inc."
+                  fill
+                  style={{ objectFit: "contain" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </Link>
+            </div>
+            <div className="w-32 h-32 relative">
+              <Link href="https://ledopizza.com/">
+                <Image
+                  src="/sponsor6.jpeg"
+                  alt="Sponsor 6"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </Link>
+            </div>
+            <div className="w-32 h-32 relative">
+              <Link href="https://www.wearefoundingfarmers.com/">
+                <Image
+                  src="/sponsor7.jpeg"
+                  alt="Sponsor 7"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Location and Follow Us Sections */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Location Section */}
           <div className="text-center">
             <h5 className="text-lg font-bold mb-2">Our Location</h5>
             <div className="aspect-w-16 aspect-h-9 max-w-[300px] mx-auto">
@@ -20,67 +106,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="text-center">
-            <h5 className="text-lg font-bold mb-4">Sponsors</h5>
-            <div className="flex flex-wrap justify-center gap-4">
-              <div className="w-32 h-32 relative">
-                <Link href="https://www.matchboxrestaurants.com/">
-                  <Image
-                    src="/sponsor1.jpeg"
-                    alt="Sponsor 1"
-                    fill
-                    style={{ objectFit: "contain" }}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  />
-                </Link>
-              </div>
-              <div className="w-32 h-32 relative">
-                <Link href="https://www.mcdmateos.com/">
-                  <Image
-                    src="/sponsor2.png"
-                    alt="Sponsor 2"
-                    fill
-                    style={{ objectFit: "contain" }}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  />
-                </Link>
-              </div>
-              <div className="w-32 h-32 relative">
-                <Link href="https://thecbbakery.com/">
-                  <Image
-                    src="/sponsor3.png"
-                    alt="Chesapeake Bagel Bakery"
-                    fill
-                    style={{ objectFit: "contain" }}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  />
-                </Link>
-              </div>
-              <div className="w-32 h-32 relative">
-                <Link href="https://gocodough.com/">
-                  <Image
-                    src="/sponsor4.png"
-                    alt="Good Company Doughnuts & Cafe"
-                    fill
-                    style={{ objectFit: "contain" }}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  />
-                </Link>
-              </div>
-              <div className="w-32 h-32 relative">
-                <Link href="https://www.mypmsi.com/">
-                  <Image
-                    src="/sponsor5.jpeg"
-                    alt="Pest Management Services, Inc."
-                    fill
-                    style={{ objectFit: "contain" }}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  />
-                </Link>
-              </div>
-            </div>
-          </div>
-
+          {/* Follow Us Section */}
           <div className="text-center">
             <h3 className="text-lg font-bold mb-4">Follow Us</h3>
             <div className="flex justify-center space-x-6">
@@ -129,6 +155,7 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Copyright */}
         <div className="text-center mt-8">
           <p>&copy; 2024 3rd Saturday Serve. All rights reserved.</p>
         </div>
