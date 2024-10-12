@@ -28,10 +28,19 @@ export default function HeroSection() {
           </h2>
           <Link
             href="https://docs.google.com/forms/d/e/1FAIpQLSeoEctmda3iRUD4eFkLAQFuyqS3xVp8Wvjbtjs6xRCZGUUDmQ/viewform?usp=pp_url"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-6"
           >
             Get Involved
           </Link>
+          {/* Translucent Card with Bible Verse */}
+          <div className="bg-white bg-opacity-70 p-6 rounded-lg shadow-lg max-w-2xl text-gray-900 italic font-serif">
+            <p className="text-lg md:text-xl">
+              &quot;In everything I did, I showed you that by this kind of hard
+              work we must help the weak, remembering the words the Lord Jesus
+              himself said: ‘It is more blessed to give than to receive.’&quot;
+              – Acts 20:35
+            </p>
+          </div>
         </div>
       </section>
 
