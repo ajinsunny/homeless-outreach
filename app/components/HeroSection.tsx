@@ -19,7 +19,7 @@ export default function HeroSection() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-10 z-10"></div>
         {/* Content */}
-        <div className="relative z-20 flex flex-col items-center justify-center h-full text-white text-center px-4">
+        <div className="relative z-20 flex flex-col items-center justify-end h-full text-white text-center px-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             Making a Difference Every 3rd Saturday
           </h1>
@@ -33,7 +33,7 @@ export default function HeroSection() {
             Get Involved
           </Link>
           {/* Translucent Card with Bible Verse */}
-          <div className="bg-white bg-opacity-70 p-6 rounded-lg shadow-lg max-w-2xl text-gray-900 italic font-serif">
+          <div className="bg-white bg-opacity-70 mb-11 p-6 rounded-lg shadow-lg max-w-2xl text-gray-900 italic font-serif">
             <p className="text-lg md:text-xl">
               &quot;In everything I did, I showed you that by this kind of hard
               work we must help the weak, remembering the words the Lord Jesus
