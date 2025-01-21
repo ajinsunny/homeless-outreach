@@ -135,7 +135,7 @@ export default function Footer() {
                 </svg>
               </Link>
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/saturday_3rd_serve_dc"
                 className="hover:text-gray-300"
               >
                 <svg
